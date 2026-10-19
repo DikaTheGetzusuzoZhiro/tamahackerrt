@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAMA STORE | Roblox Services</title>
+  <meta name="theme-color" content="#0b0b0b">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #090909;
+      color: #fff;
+    }
+
+    header {
+      padding: 20px;
+      background: #111;
+      border-bottom: 1px solid #ef233c;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: 900;
+      color: #ff304f;
+      letter-spacing: 1px;
+    }
+
+    .online {
+      color: #4ade80;
+      font-size: 12px;
+    }
+
+    .hero {
+      padding: 65px 20px;
+      text-align: center;
+      background: radial-gradient(
+        circle at top, #451018 0%, #151010 40%, #090909 80%
+      );
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 8px 13px;
+      border: 1px solid #ef233c;
+      border-radius: 20px;
+      color: #ff5369;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 8vw, 52px);
+      margin-bottom: 15px;
+    }
+
+    h1 span {
+      color: #ff304f;
+    }
+
+    .hero p {
+      color: #bbb;
+      line-height: 1.7;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .section {
+      padding: 35px 18px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fit, minmax(min(100%, 250px), 1fr)
+      );
+      gap: 20px;
+    }
+
+    .card {
+      background: #141414;
+      border: 1px solid #292929;
+      border-radius: 15px;
+      padding: 23px;
+      transition: .25s;
+    }
+
+    .card:hover {
+      border-color: #ef233c;
+      transform: translateY(-4px);
+    }
+
+    .icon {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+    }
+
+    .price {
+      color: #ff304f;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .card p {
+      color: #aaa;
+      line-height: 1.6;
+      font-size: 14px;
+      min-height: 65px;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      background: #e5223d;
+      color: white;
+      padding: 13px;
+      margin-top: 20px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #ff304f;
+    }
+
+    .info {
+      background: #151515;
+      border: 1px solid #292929;
+      border-radius: 12px;
+      padding: 20px;
+      color: #bbb;
+      line-height: 1.8;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      color: #777;
+      border-top: 1px solid #222;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">TAMA STORE</div>
+    <div class="online">● ONLINE</div>
+  </header>
+
+  <section class="hero">
+    <div class="tag">ROBLOX SECURITY SERVICES</div>
+    <h1>WELCOME TO<br><span>TAMA STORE</span></h1>
+    <p>
+      Layanan digital untuk membantu keamanan,
+      perlindungan, dan pemulihan akun Roblox milik sendiri.
+      Mudah, praktis, dan responsif.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>DAFTAR PRODUK</h2>
+
+    <div class="products">
+
+      <div class="card">
+        <div class="icon">🛡️</div>
+        <h3>TAMA SECURITY TOOL</h3>
+        <p>
+          Panduan dan alat pemeriksaan keamanan
+          untuk membantu melindungi akun Roblox milik sendiri.
+        </p>
+        <div class="price">Rp100.000</div>
+        <a class="btn"
+           href="https://wa.me/62895328044863?text=Halo%20TAMA%20STORE%2C%20saya%20ingin%20bertanya%20tentang%20TAMA%20SECURITY%20TOOL">
+          ORDER VIA WHATSAPP
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔐</div>
+        <h3>JASA BANTUAN AKUN</h3>
+        <p>
+          Bantuan pemulihan akun milik sendiri,
+          pemeriksaan keamanan, dan panduan perlindungan akun.
+        </p>
+        <div class="price">Rp50.000</div>
+        <a class="btn"
+           href="https://wa.me/62895328044863?text=Halo%20TAMA%20STORE%2C%20saya%20ingin%20bertanya%20tentang%20jasa%20bantuan%20akun">
+          ORDER VIA WHATSAPP
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="info">
+      <strong style="color:#ff304f">INFORMASI LAYANAN</strong><br>
+      ✓ Layanan keamanan akun milik sendiri<br>
+      ✓ Bantuan pemulihan akun<br>
+      ✓ Konsultasi melalui WhatsApp<br>
+      ✓ Jangan pernah membagikan password atau kode OTP
+    </div>
+  </section>
+
+  <footer>
+    © 2026 TAMA STORE — ROBLOX SECURITY SERVICES
+  </footer>
+
+</body>
+</html>
